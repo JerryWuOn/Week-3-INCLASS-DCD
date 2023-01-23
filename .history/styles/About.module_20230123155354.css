@@ -7,11 +7,13 @@
     background-color: var(--background);
     color: var(--primary-font-color);
   }
+  
   .heading {
     padding: 2rem 30rem 0;
     font-size: 2rem;
     justify-content: center;
   }
+  
   .employeeDetails {
     display: grid;
     grid-template-areas: 
@@ -22,7 +24,8 @@
     justify-items:start;
     row-gap: 40px;
     padding: 0 40px ;
-  } 
+  }
+  
   .mainTitle {
     grid-area: a;
     margin-top: 5rem;
@@ -34,7 +37,7 @@
   .last {grid-area: last;}
   .id {grid-area: id;}
   .pos {grid-area: pos;}
-
+  
   .map {
     display: grid;
     grid-template-areas: 

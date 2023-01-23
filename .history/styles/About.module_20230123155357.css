@@ -7,11 +7,13 @@
     background-color: var(--background);
     color: var(--primary-font-color);
   }
+  
   .heading {
     padding: 2rem 30rem 0;
     font-size: 2rem;
     justify-content: center;
   }
+  
   .employeeDetails {
     display: grid;
     grid-template-areas: 
