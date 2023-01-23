@@ -1,0 +1,29 @@
+[
+    {
+        "image": icon/Jerry.img,
+        "firstName": "Jerry",
+        "lastName": "No",
+        "position": "Full-Stack Web Developer",
+        "started": 1999,
+        "employeeID": 332,
+        "department": "Web design"
+    },
+    {
+        "image": "icon/personFour.png",
+        "firstName": "Sam",
+        "lastName": "Smith",
+        "position": "Front-end Developer",
+        "started": 2018,
+        "employeeID": 5403,
+        "department": "Web Design"
+    },
+    {
+        "image": "icon/personFive.png",
+        "firstName": "Teemo",
+        "lastName": "Devil",
+        "position": "Back-End Developer",
+        "started": 2016,
+        "employeeID": 666,
+        "department": "Web design"
+    }
+]

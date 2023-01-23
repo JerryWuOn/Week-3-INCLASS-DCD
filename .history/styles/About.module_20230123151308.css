@@ -1,0 +1,21 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6rem;
+    min-height: 100vh;
+  }
+
+  .employeeDetails {
+    display: grid;
+    grid-template-areas: 
+      'a a a a a a'
+      'ic first last id dep pos';
+    background-color: var(--background);
+    grid-template-columns: 10vw 15vw 15vw 10vw 15vw 15vw;
+    align-items: center;
+    justify-items: start;
+    row-gap: 25px;
+    padding: 0 40px ;
+  }

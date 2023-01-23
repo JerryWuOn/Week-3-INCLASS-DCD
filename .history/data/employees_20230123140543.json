@@ -1,0 +1,29 @@
+[
+    {
+        "image": ,
+        "firstName": "Jerry",
+        "lastName": "No",
+        "position": "Web Developer",
+        "started": 1999,
+        "employeeID": 12345,
+        "department": "Web design"
+    },
+    {
+        "image": "icon/personFour.png",
+        "firstName": "Sam",
+        "lastName": "Smith",
+        "position": "Front-end Developer",
+        "started": 2016,
+        "employeeID": 12346,
+        "department": "Web Design"
+    },
+    {
+        "image": "icon/personFive.png",
+        "firstName": "Teemo",
+        "lastName": "",
+        "position": "Full-stack Developer",
+        "started": 2020,
+        "employeeID": 12347,
+        "department": "Web design"
+    }
+]

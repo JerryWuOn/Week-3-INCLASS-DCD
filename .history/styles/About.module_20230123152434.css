@@ -1,0 +1,62 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 4rem;
+    min-height: 100vh;
+    background-color: var(--background);
+    color: var(--primary-font-color);
+  }
+  
+  .heading {
+    padding: 2rem 30rem 0;
+  }
+  
+  .employeeDetails {
+    display: grid;
+    grid-template-areas: 
+      'a a a a a a'
+      'ic first last id dep pos';
+    background-color: var(--background);
+    grid-template-columns: 10vw 15vw 15vw 10vw 15vw 15vw;
+    align-items: center;
+    justify-items: start;
+    row-gap: 25px;
+    padding: 0 40px ;
+  }
+  
+  .mainTitle {
+    grid-area: a;
+    padding-bottom: 20px;
+  }
+  
+  .icon {grid-area: ic;}
+  .first {grid-area: first;}
+  .last {grid-area: last;}
+  .id {grid-area: id;}
+  .dep {grid-area: dep;}
+  .pos {grid-area: pos;}
+  
+  .map {
+    display: grid;
+    grid-template-areas: 
+    'b c d e f g';
+    background-color: var(--background);
+    padding: 10px 0 15px;
+    grid-template-columns: 10vw 10vw 10vw 10vw 10vw 15vw;
+    align-items: center;
+    justify-items: start;
+    font-size: var(--primary-font-size);
+  }
+  
+  .map:nth-child(6) {
+    grid-row-end: span 6;
+  }
+    
+  .mapIcon {grid-area: b;}
+  .mapFirst {grid-area: c;}
+  .mapLast {grid-area: d;}
+  .mapId {grid-area: e;}
+  .mapDep {grid-area: f;}
+  .mapPos {grid-area: g;}
+  
